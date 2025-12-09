@@ -37,6 +37,7 @@ header h1 {
     overflow: auto;
     margin: 0 25px;
     padding: 20px;
+    justify-content: space-evenly;
 }
 .curriculumCard {
     max-width: 200px;
