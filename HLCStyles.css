@@ -46,6 +46,11 @@ header h1 {
         padding: 35px 10px;
     }
 }
+@media screen and (max-width: 400px) {
+    header h1 {
+        font-size: 1.4em;
+        padding: 40px 10px;
+}}
 main {
     box-shadow: 0 1px 10px 0 rgb(10, 10, 10);
     border: solid 1px rgba(14, 12, 12, 0.76);
@@ -126,7 +131,27 @@ button {
         font-size: 14px;
         width: 150px;
     }
+    #curriculumButton {
+        width: 120px;
+    }
     #homeButton {
         width: 75px;
+    }
+}
+@media screen and (max-width: 400px) {
+    article {
+        grid-template-rows: 100px 120px auto;
+    }
+    button {
+        text-align: left;
+    }
+    #homeButton {
+        width: 100%;
+    }
+    #curriculumButton {
+        width: 100%;
+    }
+    #financialButton {
+        width: 100%;
     }
 }
