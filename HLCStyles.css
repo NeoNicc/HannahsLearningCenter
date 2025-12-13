@@ -131,6 +131,7 @@ button {
     font-weight: bold;
     padding: 10px;
     color: rgba(108, 108, 123, 0.9);
+    white-space: nowrap;
 }
 #homeButton {
     width: 100px;
