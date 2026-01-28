@@ -32,7 +32,7 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     align-items: start;
-    background-color: var(--frontBubble);
+    background-color: rgba(190, 211, 190, 0.765);
     text-align: left;
     height: 100%;
     z-index: 10;
