@@ -1,0 +1,136 @@
+:root {
+    --backBubble: rgba(9, 110, 45, 0.587);
+    --frontBubble: rgba(209, 218, 209, 0.724);
+    --altBackBubble: rgb(221, 238, 229);
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: mintcream;
+    width: 96%;
+    overflow-x: hidden;
+}
+
+article {
+    display: grid;
+    grid-template-rows: 80px auto;
+    padding: 0 0 20px 0;
+    margin-top: 0;
+    align-items: normal;
+    justify-content: center;
+    text-align: center;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: start;
+    background-color: var(--frontBubble);
+    text-align: left;
+    height: 100%;
+    z-index: 10;
+    box-shadow: 2px 2px 4px 1px rgb(10, 10, 10);
+    border: solid 1px rgba(14, 12, 12, 0.76);
+    border-radius: 10px;
+    margin: 10px 0;
+}
+header h1 {
+    padding: 0;
+    margin: 0 0 0 2%;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 10px 0 rgb(10, 10, 10);
+    border: solid 1px rgba(14, 12, 12, 0.76);
+    border-radius: 10px;
+    background-color: var(--backBubble);
+    padding: 0 1% 0 1%;
+}
+
+.container {
+    box-shadow: 1px 3px 6px 1px rgb(77, 76, 76);
+}
+
+#navBar {
+    display: flex;
+    justify-content: space-around;
+    margin: 6px 0 0 0;
+    font-weight: bold;
+}
+#navBar a {
+    color: black;
+    text-decoration: none;
+}
+
+#aboutContainer {
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: var(--frontBubble);
+}
+#aboutContainer h2 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#curriculumContainer {
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 4px 0;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--frontBubble);
+}
+
+#operatingHoursContainer {
+    background-color: var(--altBackBubble);
+    border: solid 2px silver;
+    border-radius: 8px;
+    width: 90%;
+    margin: 12px auto;
+    padding: 2px 0 4px 0;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#financialsContainer {
+    display: grid;
+    border: solid 2px black;
+    border-radius: 8px;
+    margin: 10px 0;
+    background-color: var(--frontBubble);
+}
+
+#contactMeContainer p {
+    margin: 0 0 8px 0;
+    padding: 0;
+}
+#contactHeader {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    margin: 1% 1%;
+    padding: 0;
+}
+h3 {
+    margin: 2% 1%;
+    padding: 0;
+}
+h2 {
+    font-size: 1.8em;
+}
+p {
+    margin: 2% 1%;
+    font-size: 16px;
+}
+
+hr {
+    width: 80%;
+}

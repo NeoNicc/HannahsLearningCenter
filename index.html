@@ -5,90 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hadassah House</title>
 
-    <link href="HLCStyles.css" rel="stylesheet">
-    <script src="HLCScript.js" defer></script>
+    <link href="THHstyles.css" rel="stylesheet">
 </head>
 <body>
     <article>
-        <header><h1>The Hadassah House</h1></header>
-        <nav id="navBar">
-            <ul>
-                <button id="homeButton">Home</button>
-                <button id="curriculumButton">Curriculum</button>
-                <button id="financialButton">Financial Planning</button>
-            </ul>
-        </nav>
+        <header>
+            <h1>The Hadassah House</h1>
+            <hr>
+        </header>
         <main>
-            <div id="aboutContainer">
-                <h2>"For Such A Time As This" - Somebody</h2>
+            <nav>
+                <div id="navBar">
+                    <a href="#aboutContainer">About</a>
+                    <a href="#curriculumContainer">Curriculum</a>
+                    <a href="#financialsContainer">Enrollment</a>
+                    <a href="#contactMeContainer">Contact</a>
+                </div>
+            </nav>
+            <div id="aboutContainer" class="container">
+                <h2>"For Such A Time As This"</h2>
+                <hr>
                 <h3>About The Hadassah House</h3>
-                <p>Stuff about the school and things like why we exist, what we stand for, and how we operate. Also stuff about Hannah or if there's a staff the staff. Maybe a lil sentence or two about why its right for your kids</p>
-                <div id="operatingHoursContainer">
-                    <h3>Hours of Operation</h3>
-                    <p>
-                        Monday: 8am - 2pm
-                        Tuesday: 8am - 2pm
-                        Wednesday: closed
-                        Thursday: 8am - 2pm
-                        Friday: 8am - 12pm
-                        Saturday: closed
-                        Sunday: closed
-                    </p>
-                </div>
-                <div id="contactMeContainer">
-                    <h4>Contact</h4>
-                    <p>
-                        Administrator: Hannah Brauda
-                        Email: email@email.probs
-                        Phone: (555)555-5555
-                        Available Hours: Monday-Friday (8am-3pm)
-                    </p>
-                </div>
+                <p>
+                    At The Hadassah House, we believe learning should feel like exploration, not a one-size-fits-all checklist. Nestled in the heart of Baker, Florida, our small, family-run microschool welcomes up to 8 students in kindergarten through 12th grade, creating a warm, multi-age community where older children naturally mentor younger ones and every child is truly known. As a homeschool cooperative supported by Florida’s Personalized Education Program (PEP) scholarships, we keep tuition affordable while delivering a rich, personalized education in a safe home setting. We meet four days a week for short, focused sessions that leave afternoons free for family time, outdoor play, and real-life learning. Our name, The Hadassah House, is inspired by Queen Esther's original Jewish name, Hadassah—the season of quiet preparation before she became queen and, with courage and wisdom, saved her people at just the right moment. We envision this microschool as that same kind of nurturing preparation ground: equipping young minds with the knowledge, skills, confidence, and character they need to step boldly into their futures, ready to make meaningful differences and fulfill their unique purposes. "...For such a time as this."
+
+                </p>
             </div>
-            <div id="curriculumContainer">
+
+            <div id="curriculumContainer" class="container">
                 <div id="curriculumDesc">
-                    <h2>Curriculum</h2>
-                    <p>We know every child is different, that's why we offer several curriculum packages. Each has plenty of room for flexability to ensure your child has the best care for them.</p>
-                </div>
-                <div id="curriculumCardContainer">
-                    <div id="curriculumCards">
-                        <div id="curriculumCard1" class="curriculumCard">
-                            <h4>Curriculum type</h4>
-                            <hr>
-                            <p>Stuff about the curriculum and whatnot like the focus and what materials will be needed or supplied</p><br>
-                            <p><a>Price: ???.??</a></p>
-                            <br>
-                        </div>
-                        <div id="curriculumCard2" class="curriculumCard">
-                            <h4>Curriculum type</h4>
-                            <hr>
-                            <p>Stuff about the curriculum and whatnot like the focus and what materials will be needed or supplied</p><br>
-                            <p><a>Price: ???.??</a></p>
-                            <br>
-                        </div>
-                        <div id="curriculumCard3" class="curriculumCard">
-                            <h4>Curriculum type</h4>
-                            <hr>
-                            <p>Stuff about the curriculum and whatnot like the focus and what materials will be needed or supplied</p><br>
-                            <p><a>Price: ???.??</a></p>
-                            <br>
+                    <h3>Curriculum</h3>
+                    <p>At The Hadassah House, our curriculum is a joyful, flexible blend that honors each child’s unique pace while fostering community through shared discovery. We dive into science with thematic unit studies that unite every age around one captivating topic—like marine biology, bugs, decomposition, or ecosystems—with hands-on experiments, outdoor adventures, and age-appropriate materials that let younger children play and draw while older students research and analyze. English Language Arts builds on the trusted Essentials in Writing (EIW) program, supplemented by creative, teacher-designed assignments to nurture confident readers and writers. Math comes through an engaging video-based curriculum, always paired with personalized teacher guidance and practice. Social studies and history unfold through quality books, enriched with exciting cultural projects and multi-age hands-on activities that make the past feel alive. Woven throughout our days are meaningful explorations of life skills—learning to care for ourselves and our spaces, building independence, mastering practical fundamentals like cooking, budgeting, organization, and self-reliance—so students grow not just academically, but as capable, confident individuals ready for the real world. We weave in technology wisely—videos and tablets support certain lessons, while others emphasize books, worksheets, projects, and direct teacher instruction—moving seamlessly between group collaboration and individual age-appropriate work, indoors and out in the fresh Florida air.
+
+                    </p>
+                    <div id="operatingHoursContainer">
+                        <h3>Schedule</h3>
+                        <div id="schedule">
+                            <h4>Monday-Thursday</h4>
+                            <p>Drop Off: 10a-10:15a</p>
+                            <p>School Day: 10:15a-2:15p</p>
+                            <p>Pick Up: 2:15p-2:30p</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <div id="financialsContainer">
-                <h2>Summary of Tuition and Enrollment</h2>
+
+            <div id="financialsContainer" class="container">
+                <h2>Summary of Enrollment and Expenses</h2>
+                <h3>Enrollment</h3>
                 <p>
-                    Enrollment Fee: ??.??
-                    Tuition: ???.?? - ???.?? (depending on selection)
-                    Tuition and fee payments are required before the first day of the semester (or whatever is your policy)
-                    
-                    <strong>Summary of one semester of expenses</strong>
-                    <p>
-                        Curriculum A: ???.??
-                        Curriculum B: ???.??
-                        Curriculum C: ???.??
-                    </p>
+                    <strong>Enrollment is open March 2026 for the 2026/27School Year. </strong><br>
+                    Contact Hannah Brauda to begin the enrollment process.<br>
+                    Phone: (850) 635-5858<br>
+                    Email: TheHadassahHouse4.14@gmail.com
+
+                </p>
+                <h3>Expenses</h3>
+                <p>
+                    Enrollment Fee: $300.00 (one-time, non-refundable)<br>
+                    Tuition/Year: $8,000 (Paid Monthly)<br>
+                    *Enrollment fee is due within 10 days of Enrollment<br>
+                    *$50 Enrollment fee discount for siblings<br>
+                    *Eligile for Florida PEP Scholarships<br>
+                </p>
+            </div>
+
+            <div id="contactMeContainer">
+                <h4 id="contactHeader">Contact</h4>
+                <p>
+                    Administrator: Hannah Brauda<br>
+                    Email: TheHadassahHouse4.14@gmail.com<br>
+                    Phone: (850) 635-5858
                 </p>
             </div>
         </main>
